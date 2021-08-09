@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider, useQuery } from "react-query";
-import { useState } from "react";
+import React, { useState } from "react";
 
 import Card from "./components/molecules/card";
 import Pagination from "./components/molecules/pagination";
