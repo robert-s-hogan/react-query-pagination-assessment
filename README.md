@@ -4,6 +4,7 @@
 ![enter image description here](https://res.cloudinary.com/dmfdjwwgb/image/upload/v1628629901/github/react-query-pagination-assessment/react-query-star-wars-pagination_y8ll2d.png)
 
 **Objective:**
+
 Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
 
 **Challenge**:
