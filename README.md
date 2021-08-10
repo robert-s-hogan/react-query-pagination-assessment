@@ -4,7 +4,7 @@
 ![enter image description here](https://res.cloudinary.com/dmfdjwwgb/image/upload/v1628629901/github/react-query-pagination-assessment/react-query-star-wars-pagination_y8ll2d.png)
 
 **Objective:**
-Create a single page application comprised of 3 Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
+Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
 
 **Challenge**:
 
@@ -33,37 +33,6 @@ Create a single page application comprised of 3 Item Cards, each of which will d
  - Make sure to setup linting and prettier to establish a baseline with
    respect to developer workflow
  - React Testing Library for tests
- - Core React only – no GQL, React Query, or other packages
-
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-
-pip install foobar
-
-```
-
-## Usage
-
-```python
-
-import foobar
-
-# returns 'words'
-
-foobar.pluralize('word')
-
-# returns 'geese'
-
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-
-foobar.singularize('phenomena')
-
-```
 
 ## Contributing
 
