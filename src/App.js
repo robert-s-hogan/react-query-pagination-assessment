@@ -1,7 +1,6 @@
 import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 import React, { useState } from 'react';
 
-import LoadingAnimation from './components/templates/loadingAnimation';
 import Card from './components/molecules/card';
 import Pagination from './components/molecules/pagination';
 import ListItem from './components/atoms/listItem';
@@ -21,16 +20,15 @@ export default function App() {
 
 function Content() {
   const [page, setPage] = useState(1);
-  const { isLoading, error, data } = useQuery(['people', page], () =>
-    fetch(`https://swapi.dev/api/people/?page=${page}`).then((res) => res.json())
+  const { isLoading, error, data } = useQuery(
+    ['people', page],
+    () => fetch(`https://swapi.dev/api/people/?page=${page}`).then((res) => res.json()),
+    { keepPreviousData: true, staleTime: 5000 }
   );
 
-  if (isLoading) return <LoadingAnimation></LoadingAnimation>;
+  if (isLoading) return 'Loading...';
 
   if (error) return 'An error has occurred: ' + error.message;
-
-  console.log(data.count);
-  console.log(data.results.length);
   return (
     <div className="default">
       <div className="colFull">
