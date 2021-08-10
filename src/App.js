@@ -28,6 +28,9 @@ function Content() {
   if (isLoading) return <LoadingAnimation></LoadingAnimation>;
 
   if (error) return 'An error has occurred: ' + error.message;
+
+  console.log(data.count);
+  console.log(data.results.length);
   return (
     <div className="default">
       <div className="colFull">

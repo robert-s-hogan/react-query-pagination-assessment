@@ -12,9 +12,9 @@ const index = ({ totalPeople, data, page, setPage, peoplePerPage }) => {
       </Button>
       <span>
         Page:
-        {page} / {Math.ceil(totalPeople / peoplePerPage)}
+        {page} / {Math.ceil(totalPeople / 10)}
       </span>
-      <Button onClick={() => setPage(page + 1)} disabled={page >= totalPeople / peoplePerPage}>
+      <Button onClick={() => setPage(page + 1)} disabled={page >= totalPeople / 10}>
         Next
       </Button>
     </div>
