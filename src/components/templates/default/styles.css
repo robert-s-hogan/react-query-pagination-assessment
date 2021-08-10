@@ -33,6 +33,12 @@
   margin-right: auto;
 }
 
+.github-logo {
+  display: block;
+  margin-left: auto;
+  padding: 1rem 1rem 0 0;
+}
+
 .py-3 {
   padding: 2rem 0;
 }

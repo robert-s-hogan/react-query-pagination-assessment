@@ -34,6 +34,13 @@ function Content() {
   return (
     <div className="default">
       <div className="colFull">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/robert-s-hogan/react-query-pagination-assessment"
+        >
+          <img src={GithubLogo} className="github-logo" alt="Github Logo" />
+        </a>
         <img
           width="320"
           className="center py-3"
@@ -70,15 +77,6 @@ function Content() {
         </div>
       </div>
       {/* data={data} */}
-      <div className="colFull">
-        <a
-          rel="noreferrer"
-          target="_blank"
-          href="https://github.com/robert-s-hogan/react-query-pagination-assessment"
-        >
-          <img src={GithubLogo} className="center" alt="Github Logo" />
-        </a>
-      </div>
     </div>
   );
 }
