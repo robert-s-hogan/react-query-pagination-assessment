@@ -6,6 +6,8 @@ import Pagination from './components/molecules/pagination';
 import ListItem from './components/atoms/listItem';
 import './components/templates/default/styles.css';
 
+import GithubLogo from './github-icon.png';
+
 import './bootstrap';
 
 const queryClient = new QueryClient();
@@ -68,6 +70,15 @@ function Content() {
         </div>
       </div>
       {/* data={data} */}
+      <div className="colFull">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://github.com/robert-s-hogan/react-query-pagination-assessment"
+        >
+          <img src={GithubLogo} className="center" alt="Github Logo" />
+        </a>
+      </div>
     </div>
   );
 }
