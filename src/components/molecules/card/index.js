@@ -1,41 +1,41 @@
 /* @flow */
-import React from "react";
-import classnames from "classnames";
+import React from 'react';
+import classnames from 'classnames';
 
-import Title from "../../atoms/title";
-import Button from "../../atoms/button";
+import Title from '../../atoms/title';
+// import Button from '../../atoms/button';
 
-import styles from "./style.css";
+import styles from './style.css';
 
 type Props = {
-    children?: React.Node,
-    className?: string,
-    title: string,
-    button?: string,
-    uniqueId: number,
-    page: number,
+  children?: React.Node,
+  className?: string,
+  title: string,
+  // button?: string,
+  uniqueId: number,
+  page: number,
 };
 
 const Card = (props: Props): React.Element<*> => (
-    <div className={classnames(styles.card, props.className)}>
-        <div className="card-inner">
-            <p className="text-right">
-                #{props.page}
-                {props.uniqueId}
-            </p>
-            <Title>{props.title}</Title>
-            {props.children}
-            {props.button !== "" && <Button>{props.button}</Button>}
-        </div>
+  <div className={classnames(styles.card, props.className)}>
+    <div className="card-inner">
+      <p className="text-right">
+        #{props.page !== 1 && props.page}
+        {props.uniqueId}
+      </p>
+      <Title>{props.title}</Title>
+      {props.children}
+      {/* {props.button !== '' && <Button>{props.button}</Button>} */}
     </div>
+  </div>
 );
 
 Card.defaultProps = {
-    className: "",
-    CardHeader: "",
-    CardBody: "",
-    title: "",
-    button: "",
+  className: '',
+  CardHeader: '',
+  CardBody: '',
+  title: '',
+  //   button: '',
 };
 
 export default Card;
