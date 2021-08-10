@@ -28,7 +28,6 @@ function Content() {
   if (isLoading) return <LoadingAnimation></LoadingAnimation>;
 
   if (error) return 'An error has occurred: ' + error.message;
-
   return (
     <div className="default">
       <div className="colFull">
@@ -38,7 +37,12 @@ function Content() {
           src="http://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png"
           alt="Star Wars Logo"
         />
-        <Pagination page={page} setPage={setPage} />
+        <Pagination
+          peoplePerPage={data.results.length}
+          totalPeople={data.count}
+          page={page}
+          setPage={setPage}
+        />
         <div className="cardGrid">
           {data.results.map((person, index) => (
             <Card

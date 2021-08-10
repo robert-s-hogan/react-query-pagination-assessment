@@ -4,18 +4,17 @@ import Button from '../../atoms/button';
 
 import './style.css';
 
-const index = ({ data, page, setPage }) => {
+const index = ({ totalPeople, data, page, setPage, peoplePerPage }) => {
   return (
     <div className="pagination">
       <Button onClick={() => setPage((old) => Math.max(old - 1, 1))} disabled={page === 1}>
         Previous
       </Button>
-      <span> {page} </span>
-      <Button
-        onClick={() => setPage(page + 1)}
-        // disabled={page >= data.count / data.results.length}
-        disabled={page === 9}
-      >
+      <span>
+        Page:
+        {page} / {Math.ceil(totalPeople / peoplePerPage)}
+      </span>
+      <Button onClick={() => setPage(page + 1)} disabled={page >= totalPeople / peoplePerPage}>
         Next
       </Button>
     </div>

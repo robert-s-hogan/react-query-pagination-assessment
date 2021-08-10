@@ -37,47 +37,9 @@
   padding: 2rem 0;
 }
 
-.card {
-  margin-bottom: .05rem;
-  border: 1px solid #FFE81F;
-  background: linear-gradient(45deg, rgba(34,31,34,1) 36%, rgba(102,100,105,1) 100%);
-}
-
-.cardGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  grid-auto-rows: minmax(400px, auto);
-  gap: .5rem;
-}
-
-
-.card-inner {
-  height: 100%;
-  background: rgb(34,31,34);
-  display: flex;
-  flex-direction: column;
-  padding: 0 1rem;
-}
-
-.card-title {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.card li {
-  margin: .5rem 0;
-}
-
-.card h2 {
-  margin: 0;
-  white-space:nowrap;
-  font-size: 1.5rem;
-  word-wrap: break-word;
-}
-
 ul {
   padding-left: 0;
+  margin: 0;
 }
 
 @keyframes move-twink-back {
