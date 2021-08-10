@@ -24,7 +24,7 @@ Create a single page application comprised of Item Cards, each of which will dis
  - Demonstrate knowledge of effective test coverage and meaningful tests (EG testing implementation details vs. replicating user
    interactions)
 
-![enter image description here](https://res.cloudinary.com/dmfdjwwgb/image/upload/v1628629933/github/react-query-pagination-assessment/Screen_Shot_2021-08-10_at_2.08.54_PM_wmj3ni.png)
+<!-- ![enter image description here](https://res.cloudinary.com/dmfdjwwgb/image/upload/v1628629933/github/react-query-pagination-assessment/Screen_Shot_2021-08-10_at_2.08.54_PM_wmj3ni.png) -->
 
 **Environment Setup::**
 
