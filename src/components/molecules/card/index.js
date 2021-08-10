@@ -19,10 +19,7 @@ type Props = {
 const Card = (props: Props): React.Element<*> => (
   <div className={classnames(styles.card, props.className)}>
     <div className="card-inner">
-      <p className="text-left">
-        #{props.page !== 1 && props.page}
-        {props.uniqueId}
-      </p>
+      <p className="text-left">#{props.uniqueId}</p>
       <Title>{props.title}</Title>
       {props.children}
       {/* {props.button !== '' && <Button>{props.button}</Button>} */}

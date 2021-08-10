@@ -50,7 +50,7 @@ function Content() {
               // button="Learn More"
               title={person.name}
               key={person.name}
-              uniqueId={index}
+              uniqueId={person.url.match(/\d/g)}
               page={page}
             >
               <ul>
