@@ -1,5 +1,5 @@
-import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 import React, { useState } from 'react';
+import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
 
 import Card from './components/molecules/card';
 import Pagination from './components/molecules/pagination';
@@ -30,7 +30,7 @@ function Content() {
 
   if (isLoading) return 'Loading...';
 
-  if (error) return 'An error has occurred: ' + error.message;
+  if (error) return `An error has occurred: ' + ${error.message}`;
   return (
     <div className="default">
       <div className="colFull">
@@ -54,7 +54,7 @@ function Content() {
           setPage={setPage}
         />
         <div className="cardGrid">
-          {data.results.map((person, index) => (
+          {data.results.map((person) => (
             <Card
               className="card"
               // button="Learn More"

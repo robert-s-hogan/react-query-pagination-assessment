@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb", "prettier", "eslint:recommended"],
+  "plugins": ["prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "semi": "off",
+    "@typescript-eslint/semi": "error",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars-experimental": "error",
+    "no-use-before-define": ["off", "error", { "functions": true, "classes": true }],
+    "@typescript-eslint/no-use-before-define":"warn",
+    "import/no-named-as-default": 0
+  },  
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false
+
+  }
+}
