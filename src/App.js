@@ -47,6 +47,7 @@ function Content() {
           src="http://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png"
           alt="Star Wars Logo"
         />
+        <h2 className="mt-0">React Pagination Assessment</h2>
         <Pagination
           peoplePerPage={data.results.length}
           totalPeople={data.count}
