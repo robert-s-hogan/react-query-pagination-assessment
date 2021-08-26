@@ -1,36 +1,37 @@
-import React, { useState } from 'react';
-import { QueryClient, QueryClientProvider, useQuery } from 'react-query';
+import React, { useState, useEffect } from 'react';
 
 import Card from './components/molecules/card';
+import CardHeader from './components/molecules/cardHeader';
+import CardBody from './components/molecules/cardBody';
 import Pagination from './components/molecules/pagination';
-import ListItem from './components/atoms/listItem';
 import './components/templates/default/styles.css';
 
 import GithubLogo from './github-icon.png';
 
 import './bootstrap';
 
-const queryClient = new QueryClient();
+const App = () => {
+  const [people] = useState([]);
+  const [loading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage] = useState(3);
+  const [totalPosts] = useState();
+  useEffect(() => {
+    const fetchPeople = async () => {
+      let nextPage = 'https://swapi.dev/api/people/';
+      const nextPage = await initial.json();
+    };
+    fetchPeople();
+  }, []);
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = people.slice(indexOfFirstPost, indexOfLastPost);
+  console.log(`indexOfLastPost: ${indexOfLastPost}`);
+  console.log(`indexOfFirstPost: ${indexOfFirstPost}`);
+  console.log(`CurrentPosts: ${currentPosts}`);
+  if (loading) return 'Loading...';
 
-export default function App() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <Content />
-    </QueryClientProvider>
-  );
-}
-
-function Content() {
-  const [page, setPage] = useState(1);
-  const { isLoading, error, data } = useQuery(
-    ['people', page],
-    () => fetch(`https://swapi.dev/api/people/?page=${page}`).then((res) => res.json()),
-    { keepPreviousData: true, staleTime: 5000 }
-  );
-
-  if (isLoading) return 'Loading...';
-
-  if (error) return `An error has occurred: ' + ${error.message}`;
+  // if (error) return `An error has occurred: ' + ${error.message}`;
   return (
     <div className="default">
       <div className="colFull">
@@ -48,35 +49,35 @@ function Content() {
           alt="Star Wars Logo"
         />
         <Pagination
-          peoplePerPage={data.results.length}
-          totalPeople={data.count}
-          page={page}
-          setPage={setPage}
+          postsPerPage={postsPerPage}
+          totalPosts={totalPosts}
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
         />
         <div className="cardGrid">
-          {data.results.map((person) => (
-            <Card
-              className="card"
-              // button="Learn More"
-              title={person.name}
-              key={person.name}
-              uniqueId={person.url.match(/\d/g)}
-              page={page}
-            >
-              <ul>
-                <ListItem>Mass: {person.mass}</ListItem>
-                <ListItem>Height: {person.height}</ListItem>
-                <ListItem>Hair Color: {person.hair_color}</ListItem>
-                <ListItem>Skin Color: {person.skin_color}</ListItem>
-                <ListItem>Eye Color: {person.eye_color}</ListItem>
-                <ListItem>Birth Year: {person.birth_year}</ListItem>
-                <ListItem>Gender: {person.gender}</ListItem>
-              </ul>
+          {currentPosts.map((person) => (
+            <Card className="card" key={person.name}>
+              <CardHeader
+                className="card-body"
+                key={person.name}
+                uniqueId={person.url.match(/\d/g)}
+                name={person.name}
+              />
+              <CardBody
+                mass={person.mass}
+                height={person.height}
+                hairColor={person.hair_color}
+                skinColor={person.skin_color}
+                eyeColor={person.eye_color}
+                birthYear={person.birth_year}
+                gender={person.gender}
+              />
             </Card>
           ))}
         </div>
       </div>
-      {/* data={data} */}
     </div>
   );
-}
+};
+
+export default App;
