@@ -7,22 +7,22 @@ type Props = {
   totalCount: number,
   postsPerPage: number,
   currentPage: number,
-  setCurrentPage: (page: number) => void,
+  setPage: Function,
 };
 
 const Pagination = (props: Props): React.Element<*> => {
-  const { postsPerPage, totalCount, currentPage, setCurrentPage } = props;
+  const { postsPerPage, totalCount, currentPage, setPage } = props;
 
   useEffect(() => {
-    setCurrentPage(currentPage);
+    setPage(currentPage);
   }, [currentPage]);
 
   const onNextPage = (): void => {
-    setCurrentPage(currentPage + 1);
+    setPage(currentPage + 1);
     console.log(`Next Page: ${currentPage}`);
   };
   const onPreviousPage = (): void => {
-    setCurrentPage(currentPage - 1);
+    setPage(currentPage - 1);
     console.log(`Previous Page: ${currentPage}`);
   };
 
@@ -35,13 +35,13 @@ const Pagination = (props: Props): React.Element<*> => {
       <Button onClick={() => onNextPage()} disabled={currentPage >= totalCount / postsPerPage}>
         Next
       </Button>
-      {/* <Button onClick={() => setCurrentPage((old) => Math.max(old - 1, 1))} disabled={page === 1}>
+      {/* <Button onClick={() => setPage((old) => Math.max(old - 1, 1))} disabled={page === 1}>
         Previous
       </Button> */}
       {/* <span>
         {page} / {Math.ceil(totalPeople / 10)}
       </span> */}
-      {/* <Button onClick={() => setCurrentPage(page + 1)} disabled={page >= totalPeople / 10}>
+      {/* <Button onClick={() => setPage(page + 1)} disabled={page >= totalPeople / 10}>
         Next
       </Button> */}
     </div>
