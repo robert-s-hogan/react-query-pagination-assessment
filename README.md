@@ -16,6 +16,8 @@
 
 <h3 align="center">React Pagination Assessment</h3>
 
+</div>
+
 ### Objective:
 
 Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
@@ -41,15 +43,13 @@ Create a single page application comprised of Item Cards, each of which will dis
 
   <p align="center">
 
-    <a href="https://robert-s-hogan.github.io/react-query-pagination-assessment/">View Demo</a>
-    ·
-    <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Request Feature</a>
+  <a href="https://robert-s-hogan.github.io/react-query-pagination-assessment/">View Demo</a>
+  ·
+  <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Request Feature</a>
 
 </p>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
