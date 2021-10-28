@@ -189,6 +189,9 @@ Project Link: [https://github.com/robert-s-hogan/react-query-pagination-assessme
 
 - [Traversy Media's React Pagination Tutorial](https://www.youtube.com/watch?v=IYCa1F-OWmk&t=450s)
 - [Net Ninja's React Query Tutorial](https://www.youtube.com/watch?v=x1rQ61otgtU&list=PL4cUxeGkcC9jpi7Ptjl5b50p9gLjOFani)
+- [MIT License](https://choosealicense.com/licenses/mit/)
+- [Github Img Shields](https://shields.io)
+- [othneildrew's README template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
