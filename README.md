@@ -87,14 +87,13 @@ Create a single page application comprised of Item Cards, each of which will dis
 
 ### Built With
 
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Angular](https://angular.io/)
-- [Svelte](https://svelte.dev/)
-- [Laravel](https://laravel.com)
-- [Bootstrap](https://getbootstrap.com)
-- [JQuery](https://jquery.com)
+- [Star Wars API](https://swapi.dev/) - For all character data
+- [ReactJS] - For UI and components
+- [Github] - For code maintenance
+- [GithubPages](https://pages.github.com/) - To deploy site
+- [ReactQuery](https://react-query.tanstack.com/) - Handles pagination functions and loading data
+- [Axios](https://axios-http.com/docs/intro) - Fetching library
+- [Jest.io](https://jestjs.io/) - For testing
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,11 +144,6 @@ This project can be used for anyone who wants to work with the [Star Wars Free A
 ## Roadmap
 
 - [ReactJS] - For UI and components
-- [Github] - For code maintenance
-- [GithubPages](https://pages.github.com/) - To deploy site
-- [ReactQuery](https://react-query.tanstack.com/) - Handles pagination functions and loading data
-- [Axios](https://axios-http.com/docs/intro) - Fetching library
-- [Jest.io](https://jestjs.io/) - For testing
 
 See the [open issues](https://github.com/robert-s-hogan/react-query-pagination-assessment/issues) for a full list of proposed features (and known issues).
 
@@ -194,9 +188,8 @@ Project Link: [https://github.com/robert-s-hogan/react-query-pagination-assessme
 
 ## Acknowledgments
 
-- []()
-- []()
-- []()
+- [Traversy Media's React Pagination Tutorial](https://www.youtube.com/watch?v=IYCa1F-OWmk&t=450s)
+- [Net Ninja's React Query Tutorial](https://www.youtube.com/watch?v=x1rQ61otgtU&list=PL4cUxeGkcC9jpi7Ptjl5b50p9gLjOFani)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
