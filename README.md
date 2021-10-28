@@ -16,8 +16,6 @@
 
 <h3 align="center">React Pagination Assessment</h3>
 
-  <p align="left">
-
 ### Objective:
 
 Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
@@ -34,7 +32,14 @@ Create a single page application comprised of Item Cards, each of which will dis
   on URL parameters.
 - Use React Testing Library for writing tests.
 
-#### Goals: <br />
+#### Goals:
+
+- Demonstrate knowledge of component composition and focus on component
+  reusability.
+- Demonstrate knowledge of effective test coverage and meaningful tests (EG testing implementation details vs. replicating user
+  interactions)
+
+  <p align="center">
 
     <a href="https://robert-s-hogan.github.io/react-query-pagination-assessment/">View Demo</a>
     ·
@@ -42,7 +47,8 @@ Create a single page application comprised of Item Cards, each of which will dis
     ·
     <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Request Feature</a>
 
-  </p>
+</p>
+
 </div>
 
 <!-- TABLE OF CONTENTS -->
