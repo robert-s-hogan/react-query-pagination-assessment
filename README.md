@@ -17,13 +17,31 @@
 <h3 align="center">React Pagination Assessment</h3>
 
   <p align="center">
-    project_description
-    <br />
+
+### Objective:
+
+Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
+
+#### Challenge:
+
+- Create a UI that replicates the UI shown on page 2. Note: Book
+  name/Image is an example of data from your API that you may display
+  to a user.
+- Upon selecting the previous or next button, a user should be able to
+  view a subset of items derived from a list of data. EG items 0-2,  
+  3-5, and so on. Your goal is to sift through API documentation until
+  you find an API that has an endpoint allowing for configuration based
+  on URL parameters.
+- Use React Testing Library for writing tests.
+
+#### Goals: <br />
+
     <a href="https://robert-s-hogan.github.io/react-query-pagination-assessment/">View Demo</a>
     ·
     <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Report Bug</a>
     ·
     <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment/issues">Request Feature</a>
+
   </p>
 </div>
 
@@ -80,28 +98,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ## Getting Started
 
-### Objective:
-
-Create a single page application comprised of Item Cards, each of which will display information to a user wherein that information is a subset of data you extract from a sample public API of your choosing from the following list
-
-#### Challenge:
-
-- Create a UI that replicates the UI shown on page 2. Note: Book
-  name/Image is an example of data from your API that you may display
-  to a user.
-- Upon selecting the previous or next button, a user should be able to
-  view a subset of items derived from a list of data. EG items 0-2,  
-  3-5, and so on. Your goal is to sift through API documentation until
-  you find an API that has an endpoint allowing for configuration based
-  on URL parameters.
-- Use React Testing Library for writing tests.
-
-#### Goals:
-
-- Demonstrate knowledge of component composition and focus on component
-  reusability.
-- Demonstrate knowledge of effective test coverage and meaningful tests (EG testing implementation details vs. replicating user
-  interactions)
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
