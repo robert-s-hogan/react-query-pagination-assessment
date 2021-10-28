@@ -16,7 +16,7 @@
 
 <h3 align="center">React Pagination Assessment</h3>
 
-  <p align="center">
+  <p align="left">
 
 ### Objective:
 
