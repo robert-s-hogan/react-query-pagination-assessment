@@ -88,8 +88,8 @@ Create a single page application comprised of Item Cards, each of which will dis
 ### Built With
 
 - [Star Wars API](https://swapi.dev/) - For all character data
-- [ReactJS] - For UI and components
-- [Github] - For code maintenance
+- [ReactJS](https://reactjs.org/) - For UI and components
+- [Github](https://github.com/) - For code maintenance
 - [GithubPages](https://pages.github.com/) - To deploy site
 - [ReactQuery](https://react-query.tanstack.com/) - Handles pagination functions and loading data
 - [Axios](https://axios-http.com/docs/intro) - Fetching library
@@ -105,8 +105,6 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 - npm
   ```sh
@@ -143,7 +141,8 @@ This project can be used for anyone who wants to work with the [Star Wars Free A
 
 ## Roadmap
 
-- [ReactJS] - For UI and components
+- [Photo API with Star Wars characters](https://github.com/robert-s-hogan/react-query-pagination-assessment/issues/1) - set up a custom API that scrapes a star wars gallery.
+- [Sound Effects](https://github.com/robert-s-hogan/react-query-pagination-assessment/issues/3) - Add sound to the project
 
 See the [open issues](https://github.com/robert-s-hogan/react-query-pagination-assessment/issues) for a full list of proposed features (and known issues).
 
