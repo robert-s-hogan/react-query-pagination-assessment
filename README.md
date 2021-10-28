@@ -83,8 +83,6 @@ Create a single page application comprised of Item Cards, each of which will dis
 
 [![Product Name Screen Shot][product-screenshot]](https://robert-s-hogan.github.io/react-query-pagination-assessment/)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `robert-s-hogan`, `react-query-pagination-assessment`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
@@ -118,18 +116,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/robert-s-hogan/react-query-pagination-assessment.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
+   cd react-query-pagination-assessment
    ```
-4. Enter your API in `config.js`
+3. Run local server
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   npm start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -138,9 +136,7 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This project can be used for anyone who wants to work with the [Star Wars Free API](https://swapi.dev/).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -148,10 +144,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-- [] Feature 1
-- [] Feature 2
-- [] Feature 3
-  - [] Nested Feature
+- [ReactJS] - For UI and components
+- [Github] - For code maintenance
+- [GithubPages](https://pages.github.com/) - To deploy site
+- [ReactQuery](https://react-query.tanstack.com/) - Handles pagination functions and loading data
+- [Axios](https://axios-http.com/docs/intro) - Fetching library
+- [Jest.io](https://jestjs.io/) - For testing
 
 See the [open issues](https://github.com/robert-s-hogan/react-query-pagination-assessment/issues) for a full list of proposed features (and known issues).
 
@@ -178,7 +176,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `license.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -186,7 +184,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@robert_s_hogan](https://twitter.com/robert_s_hogan) - robert.s.hogan@icloud.com
 
 Project Link: [https://github.com/robert-s-hogan/react-query-pagination-assessment](https://github.com/robert-s-hogan/react-query-pagination-assessment)
 
@@ -214,7 +212,7 @@ Project Link: [https://github.com/robert-s-hogan/react-query-pagination-assessme
 [issues-shield]: https://img.shields.io/github/issues/robert-s-hogan/react-query-pagination-assessment.svg?style=for-the-badge
 [issues-url]: https://github.com/robert-s-hogan/react-query-pagination-assessment/issues
 [license-shield]: https://img.shields.io/github/license/robert-s-hogan/react-query-pagination-assessment.svg?style=for-the-badge
-[license-url]: https://github.com/robert-s-hogan/react-query-pagination-assessment/blob/master/LICENSE.txt
+[license-url]: https://github.com/robert-s-hogan/react-query-pagination-assessment/blob/master/license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/robert-s-hogan
 [product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635459300/react-query-pagination/react_query_star_wars_pagination-desktop_czgyr1.jpg
