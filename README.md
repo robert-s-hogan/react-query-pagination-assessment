@@ -11,16 +11,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment">
-    <img src="http://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png" alt="Logo" width="160">
+    <img src="http://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png" alt="Logo" width="320">
   </a>
 
 <h3 align="center">React Pagination Assessment</h3>
 
   <p align="center">
     project_description
-    <br />
-    <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://robert-s-hogan.github.io/react-query-pagination-assessment/">View Demo</a>
     ·
@@ -60,7 +57,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://robert-s-hogan.github.io/react-query-pagination-assessment/)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `robert-s-hogan`, `react-query-pagination-assessment`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
 
@@ -196,4 +193,4 @@ Project Link: [https://github.com/robert-s-hogan/react-query-pagination-assessme
 [license-url]: https://github.com/robert-s-hogan/react-query-pagination-assessment/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://res.cloudinary.com/dmfdjwwgb/image/upload/v1635459300/react-query-pagination/react_query_star_wars_pagination-desktop_czgyr1.jpg
