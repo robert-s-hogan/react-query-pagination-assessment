@@ -84,12 +84,6 @@ Create a single page application comprised of Item Cards, each of which will dis
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://robert-s-hogan.github.io/react-query-pagination-assessment/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 - [Star Wars API](https://swapi.dev/) - For all character data
