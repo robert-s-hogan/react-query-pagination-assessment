@@ -7,7 +7,7 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<h3 align="center">React Pagination Assessment</h3>
+<h3>React Pagination Assessment</h3>
 
 ![Memory Game Screenshot or GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXc1YTd3NXI0eDVnbmNzNnR1N3h6MzYyNmFxZ3M2Mm42dGozMWExdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6RHcFxZDC8tpebOUkB/giphy.gif)
 
