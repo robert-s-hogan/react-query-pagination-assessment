@@ -7,16 +7,20 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/robert-s-hogan/react-query-pagination-assessment">
-    <img src="http://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png" alt="Logo" width="320">
-  </a>
-
 <h3 align="center">React Pagination Assessment</h3>
 
 </div>
+
+## About The Project
+
+![Memory Game Screenshot or GIF]([https://robert-s-hogan.github.io/react-query-pagination-assessment/](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXc1YTd3NXI0eDVnbmNzNnR1N3h6MzYyNmFxZ3M2Mm42dGozMWExdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6RHcFxZDC8tpebOUkB/giphy.gif))
+
+This project, React Pagination Assessment, showcases a dynamic single-page application that leverages the Star Wars API to display character data with efficient pagination. The primary focus of this project is to demonstrate advanced React component composition and the integration of React Query for state management and API interaction.
+
+### Why I Chose This Challenge
+
+I undertook this project to deepen my understanding of React's capabilities in handling large datasets and to explore the practical applications of React Query in a real-world scenario. This project is part of my journey in mastering frontend development and in understanding the nuances of modern web application architecture.
+
 
 ### Objective:
 
